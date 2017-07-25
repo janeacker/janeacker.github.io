@@ -1,0 +1,132 @@
+/*CSS for Subpages, Basic Template*/
+
+body {
+    background-color: white
+    letter-spacing: normal;
+    margin: 1% 2% 1% 2%;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+footer {
+    text-align: right;
+    color: black;
+    padding: 2%;
+    font-size: 14px;
+    float: right;
+/*
+    bottom: 1%;
+    right: 2%;
+    display: inline;*/
+/*    border: blue 2px solid;*/
+}
+.subnav li {
+    list-style: none;
+}
+.subnav ul {
+    padding-left: 0;
+    margin: 0;
+}
+.subnav {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.active {
+    border-bottom: 3px black solid;
+}
+.logo {
+    font-family: "BioRhyme", serif;
+    font-size: 72px;
+    font-weight: 900;
+    padding-top: 0;
+}
+header {
+/*    border: blue 2px solid;*/
+    float: left;
+}
+footer img {
+    margin-left: 8px;
+}
+
+
+/*  Resources Page*/
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #F6A623;
+}
+#resources_ls a:visited {
+    color: darkgray;
+}
+#resources_ls {
+    border: 2px black solid;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+#resources_ls li {
+    line-height: 1.8em;
+    list-style: square;
+    font-family: "Open Sans", sans-serif;
+}
+#resources_ls li a {
+    color: #f6a623;
+    text-decoration: underline;
+}
+#resources_ls li a:hover {
+    color: black;
+}
+.h1 {
+    font-weight: 800;
+    font-size: 36px;
+    margin: 0;
+    border-bottom: 2px black solid;
+}
+.h2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 0;
+/*    border-bottom: 1px black dotted;*/
+}
+
+
+/*New for the about page*/
+.desc {
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+    clear: both;
+}
+.jane {
+    width: 50%;
+    float: left;
+/*    position: absolute;*/
+}
+.jane p {
+    padding-right: 3%;
+    
+/*janky solution    */
+    
+}
+.shannon {
+    width: 50%;
+    float: right;
+}
+#janepic {
+    height: 568px;
+    width: 301px;
+}
+#shanpic {
+    height: 498px;
+    width: 268px;
+}
