@@ -68,7 +68,7 @@ a:hover {
     color: darkgray;
 }
 #resources_ls {
-    border: 2px black solid;
+/*    border: 2px black solid;*/
     clear: both;
     margin-left: auto;
     margin-right: auto;
